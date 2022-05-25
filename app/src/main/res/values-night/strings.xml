@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="estudio">Estudio</string>
+    <string name="registro_de_fallos">Registro de fallos</string>
+    <string name="infoT0">1. Definiciones relativas a la persona
+
+CONDUCTOR
+Persona que maneja el mecanismo de la dirección o va al mando de un vehículo. En vehículos que circulen en función de aprendizaje de la conducción, es conductor la persona que está a cargo del doble mando.
+
+PEATÓN
+Persona que, sin ser conductor, transita a pie por las vías o terrenos públicos o privados que sean de uso común. Son también peatones quienes empujan o arrastran un coche de niños, de impedido o cualquier otro vehículo sin motor de pequeñas dimensiones, los que conducen a pie un ciclo o ciclomotor de dos ruedas y los impedidos que circulan al paso en una silla de ruedas, con o sin motor.
+
+
+TITULAR DEL VEHÍCULO
+Persona a cuyo nombre figura inscrito el vehículo en el registro oficial correspondiente.
+
+TOMADOR
+Persona que contrata el seguro de responsabilidad civil obligatoria del vehículo con la entidad aseguradora.
+
+USUARIO DEL VEHÍCULO
+Persona que se encuentra dentro del vehículo, con conocimiento del conductor.
+
+
+2 Vehículos no considerados de motor
+
+VEHÍCULO DE TRACCIÓN ANIMAL
+Vehículo arrastrado por animales.
+
+
+CICLO
+Vehículo de dos ruedas por lo menos, accionado por el esfuerzo muscular de las personas que lo ocupan, en particular mediante pedales o manivelas.
+
+
+BICICLETA
+Ciclo de dos ruedas.
+
+BICICLETA DE PEDALES CON PEDALEO ASISTIDO
+Bicicletas equipadas con un motor eléctrico auxiliar, de potencia nominal continua máxima inferior o igual a 250 W, cuya potencia disminuya progresivamente y que finalmente se interrumpa antes de que la velocidad del vehículo alcance los 25 km/h o si el ciclista deja de pedalear.
+
+
+REMOLQUE
+Vehículo no autopropulsado diseñado y concebido para ser remolcado por un vehículo de motor.
+
+
+SEMIREMOLQUE
+Vehículo no autopropulsado diseñado y concebido para ser acoplado a un automóvil, sobre el que reposará parte del mismo, transfiriéndole una parte sustancial de su masa.
+
+CARAVANA
+Remolque o semiremolque concebido y acondicionado para ser utilizado como vivienda móvil, permitiéndose el uso de su habitáculo cuando el vehículo se encuentra estacionado.
+
+
+CICLO DE MOTOR
+Ciclos diseñados para funcionar a pedal que cuentan con una propulsión auxiliar cuyo objetivo principal es ayudar al pedaleo. La potencia de la propulsión auxiliar se interrumpe a una velocidad del vehículo inferior o igual a 25 km/h. La potencia nominal o neta continua máxima inferior o igual a 1000 W.
+
+
+VEHÍCULO DE MOVILIDAD PERSONAL
+Vehículo de una o más ruedas dotado de una única plaza y propulsado exclusivamente por motores eléctricos que pueden proporcionar al vehículo una velocidad máxima por diseño comprendida entre 6 y 25 km/h.
+
+Sólo pueden estar equipados con un asiento o sillín si están dotados de sistema de autoequilibrado.
+
+(Los vehículos de movilidad personal requerirán para poder circular el certificado de circulación que garantice el cumplimiento de los requisitos técnicos exigibles por la normativa nacional e internacional recogidos en su manual de características, así como su identificación)
+
+
+VEHÍCULO PARA PERSONAS DE MOVILIDAD REDUCIDA
+Vehículo cuya tara no sea superior a 350 kg y que, por construcción, no pueda alcanzar en llano una velocidad superior a 45 km/h, proyectado y construido especialmente para el uso de personas con alguna disfunción o incapacidad física.
+
+
+TRANVÍA
+Es el vehículo que marcha por raíles instalados en la vía.
+
+
+CICLOMOTOR DE 2 RUEDAS
+Vehículo de dos ruedas, provisto de un motor de cilindrada no superior a 50 cm³, si es de combustión interna, y con una velocidad máxima por construcción no superior a 45 km/h.
+
+
+CICLOMOTOR DE 3 RUEDAS
+Vehículo de tres ruedas, provisto de un motor de cilindrada no superior a 50 cm³, si es de combustión interna, y con una velocidad máxima por construcción no superior a 45 km/h.
+
+
+CUATRICICLO LIGERO
+Vehículo de cuatro ruedas cuya masa en vacío sea inferior o igual a 350 kg, no incluida la masa de las baterías en el caso de los vehículos eléctricos, cuya velocidad máxima por construcción no sea superior a 45 km/h y con un motor de cilindrada inferior o igual a 50 cm³ para los motores de explosión, o cuya potencia neta sea inferior o igual a 4 kW para los demás tipos de motores.</string>
+    <string name="pregunta_1_de_30">Pregunta 1 de 30</string>
+</resources>

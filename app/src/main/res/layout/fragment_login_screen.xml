@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.fragments.LoginScreenFragment"
+    android:background="@drawable/background_registro4">
+
+    <ImageView
+        android:id="@+id/policeImg"
+        android:layout_width="240dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/policia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintWidth_percent="0.8" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/emailLayout"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        app:boxBackgroundColor="#9FFFFFFF"
+        app:endIconMode="clear_text"
+        app:startIconDrawable="@drawable/fui_ic_mail_white_24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/policeImg">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/password"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/emailLayout"
+        android:hint="Contraseña"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundColor="#9FFFFFFF"
+        app:startIconDrawable="@android:drawable/ic_secure"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/passwordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/password"
+        android:layout_marginTop="10dp"
+        app:backgroundTint="#80FFFFFF"
+        style="?attr/materialButtonOutlinedStyle"
+        app:strokeColor ="#829497"
+        app:cornerRadius="10dp"
+        android:textColor="#4c565e"
+        android:text="Iniciar sesion"
+        />
+
+    <TextView
+        android:id="@+id/registrateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loginButton"
+        android:layout_marginTop="15dp"
+        android:text="¿No tienes cuenta? Registrate aquí"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/googleButton"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="@id/policeImg"
+        app:layout_constraintStart_toStartOf="@id/policeImg"
+        app:layout_constraintTop_toBottomOf="@+id/registrateButton"
+        android:layout_marginTop="50dp"
+        android:background="#1886F7">
+
+        <TextView
+            android:id="@+id/googleText"
+            android:layout_width="0dp"
+            android:gravity="center_vertical"
+            app:layout_constraintStart_toEndOf="@id/googleImg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:text="Inicia sesion con Google"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/googleImg"
+            android:background="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_google"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+    <style name="BottomAppBar" parent="Widget.MaterialComponents.BottomAppBar">
+        <item name="backgroundTint">?attr/colorPrimary</item>
+        <item name="materialThemeOverlay">@style/ThemeOverlay.MaterialComponents.BottomAppBar.Primary</item>
+    </style>
+    <style name="FloatingActionButton" parent="android:Widget">
+        <item name="android:background">@drawable/amarillo</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="fabSize">auto</item>
+        <item name="elevation">@dimen/design_fab_elevation</item>
+        <item name="hoveredFocusedTranslationZ">@dimen/design_fab_translation_z_hovered_focused</item>
+        <item name="pressedTranslationZ">@dimen/design_fab_translation_z_pressed</item>
+        <item name="rippleColor">?attr/colorControlHighlight</item>
+        <item name="borderWidth">@dimen/design_fab_border_width</item>
+        <item name="maxImageSize">@dimen/design_fab_image_size</item>
+        <item name="showMotionSpec">@animator/design_fab_show_motion_spec</item>
+        <item name="hideMotionSpec">@animator/design_fab_hide_motion_spec</item>
+    </style>
+
+</resources>

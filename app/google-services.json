@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "276441551472",
+    "project_id": "carunlock-96030",
+    "storage_bucket": "carunlock-96030.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276441551472:android:1eac1ad15402fe34141ab5",
+        "android_client_info": {
+          "package_name": "com.project.carunlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276441551472-h6tbtaoh0ubjh2fqo48qr80itvl7crqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.carunlock",
+            "certificate_hash": "630291f54ad160eb12033f35f826bbc2228b0d05"
+          }
+        },
+        {
+          "client_id": "276441551472-ttfqaahq6ubeke4hjiq6nqrd4rvgv3cm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.carunlock",
+            "certificate_hash": "e60c15f3db41e87242627f577a763e625f401251"
+          }
+        },
+        {
+          "client_id": "276441551472-go25pjcf337l0pcpsam3kj321d9656nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQvU_TIpoghd9e7cmh1Fcd51r9LxvFJqM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276441551472-go25pjcf337l0pcpsam3kj321d9656nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
