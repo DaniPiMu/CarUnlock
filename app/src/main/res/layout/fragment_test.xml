@@ -14,13 +14,6 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.47" />
 
-<!--    <androidx.constraintlayout.widget.Guideline-->
-<!--        android:id="@+id/guidelineBottom"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="horizontal"-->
-<!--        app:layout_constraintGuide_end="50dp" />-->
-
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="match_parent"
@@ -102,7 +95,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                android:src="@drawable/no_image"
+
                 android:scaleType="fitXY"
                 android:layout_marginTop="35dp"
                 />
