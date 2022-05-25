@@ -130,7 +130,6 @@ class LoginScreenFragment : Fragment() {
                             if (it.isSuccessful) {
                                 println("google")
                                 val emailLogged = it.result?.user?.email
-                                Toast.makeText(this.context, emailLogged, Toast.LENGTH_LONG).show()
                                 goToHome(emailLogged!!)
                             } else {
                                 showAlert()
