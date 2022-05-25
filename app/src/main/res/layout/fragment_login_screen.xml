@@ -30,12 +30,17 @@
         app:startIconDrawable="@drawable/fui_ic_mail_white_24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/policeImg">
+        app:layout_constraintTop_toBottomOf="@id/policeImg"
+        android:textColorHint="#4c565e"
+        app:endIconTint="#4c565e"
+        app:startIconTint="#4c565e"
+        >
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="#4c565e"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -49,12 +54,17 @@
         app:boxBackgroundColor="#9FFFFFFF"
         app:startIconDrawable="@android:drawable/ic_secure"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:textColorHint="#4c565e"
+        app:endIconTint="#4c565e"
+        app:startIconTint="#4c565e">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="#4c565e" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

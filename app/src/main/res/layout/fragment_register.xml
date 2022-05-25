@@ -47,12 +47,17 @@
         app:startIconDrawable="@drawable/fui_ic_mail_white_24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/appIcon">
+        app:layout_constraintTop_toBottomOf="@id/appIcon"
+        android:textColorHint="#4c565e"
+        app:endIconTint="#4c565e"
+        app:startIconTint="#4c565e">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="#4c565e"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -71,12 +76,18 @@
         app:endIconMode="password_toggle"
         app:startIconDrawable="@android:drawable/ic_secure"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:textColorHint="#4c565e"
+        app:endIconTint="#4c565e"
+        app:startIconTint="#4c565e">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password1Text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="#4c565e"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -95,12 +106,18 @@
         app:startIconDrawable="@android:drawable/ic_secure"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxBackgroundColor="#9FFFFFFF"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:textColorHint="#4c565e"
+        app:endIconTint="#4c565e"
+        app:startIconTint="#4c565e">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password2Text"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="#4c565e"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
