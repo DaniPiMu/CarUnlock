@@ -50,7 +50,10 @@
         app:layout_constraintTop_toBottomOf="@id/appIcon"
         android:textColorHint="#4c565e"
         app:endIconTint="#4c565e"
-        app:startIconTint="#4c565e">
+        app:startIconTint="#4c565e"
+
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailText"
@@ -80,7 +83,10 @@
 
         android:textColorHint="#4c565e"
         app:endIconTint="#4c565e"
-        app:startIconTint="#4c565e">
+        app:startIconTint="#4c565e"
+
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password1Text"
@@ -110,7 +116,10 @@
 
         android:textColorHint="#4c565e"
         app:endIconTint="#4c565e"
-        app:startIconTint="#4c565e">
+        app:startIconTint="#4c565e"
+
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password2Text"

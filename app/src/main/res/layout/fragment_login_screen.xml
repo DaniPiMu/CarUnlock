@@ -34,7 +34,9 @@
         app:layout_constraintEnd_toEndOf="@id/policeImg"
         app:layout_constraintStart_toStartOf="@id/policeImg"
         app:layout_constraintTop_toBottomOf="@id/policeImg"
-        app:startIconDrawable="@drawable/fui_ic_mail_white_24dp">
+        app:startIconDrawable="@drawable/fui_ic_mail_white_24dp"
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/emailText"
@@ -57,7 +59,10 @@
         app:layout_constraintEnd_toEndOf="@id/policeImg"
         app:layout_constraintStart_toStartOf="@id/policeImg"
         app:layout_constraintTop_toBottomOf="@id/emailLayout"
-        app:startIconDrawable="@android:drawable/ic_secure">
+        app:startIconDrawable="@android:drawable/ic_secure"
+
+        app:boxStrokeColor="@color/black"
+        app:hintTextColor="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordText"
